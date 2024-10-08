@@ -1,0 +1,26 @@
+// to download from GitHub :
+git clone [link]
+// to get statue about local files :
+git status
+// to add files to staging area :
+git add [[location]/[file_name]] or [*] to add all extension 
+// to unset from staging area :
+git reset head [file_name]
+// to commit the files to local repo :
+git commit -m ["message"]
+// to get branch information :
+git branch
+// to get remote name :
+git remote -v
+// to publish the files to the repository after gathering the updates :
+git push -u [remote_name] [branch_name]
+// to get files from remote repository :
+git pull [repo_name]
+// to generate key for secure shell :
+ssh-keygen -t [type] -b [number of bytes] -C ["email address"]
+// to get key :
+cat ~/.ssh/id_rsa.pub
+// to connect with github by ssh key :
+ssh -T git@github.com
+// to initialized a folder to git :
+git init
